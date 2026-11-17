@@ -1,0 +1,12 @@
+[project]
+name = "synthetic-tracking"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "astropy>=8.0.2",
+    "astroquery>=0.4.11",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "requests>=2.34.2",
+    "scipy>=1.18.1",
+]
