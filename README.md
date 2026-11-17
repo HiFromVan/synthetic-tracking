@@ -93,6 +93,10 @@ uv run python scripts/evaluate.py data/w30 cands.json cands_neg.json  # 对照�
 cargo test --release                                                  # 合成数据：单帧信噪比 2 的移动源能被找回
 ```
 
+看图：在 VS Code 里打开 `notebooks/explore.ipynb`（内核选 `.venv`），依次运行。
+整块芯片与已知轨迹、单帧逐帧播放、沿轨迹叠加、拖速度滑块看点浮出、原数据与取反数据的候选分布。
+笔记本由 `scripts/make_notebook.py` 生成。
+
 ## 进度
 
 - [x] 在一组 DECam 公开图像中，找回其中已知的小行星
